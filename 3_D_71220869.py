@@ -16,6 +16,8 @@ while True:
         print('Ketinggian drone saat menit ke 5 adalah %.2f'%(tggi),'meter')
         print('Selisih ketinggian drone saat menit ke-5 dan ke-6 adalah %.2f'%(slsh),'meter')
         continue
-    elif jarak.lower() == 'stop'or 'berhenti':
-        print('Program dihentikan')
+    
+    elif jarak.lower() == 'stop' or 'berhenti':
+        for i in range(1):
+            print('Program dihentikan')
         break
